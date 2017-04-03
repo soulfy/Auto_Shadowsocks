@@ -1,31 +1,26 @@
 ``"ishadow密码爬取" 文件夹仅是用来显示查看服务器和密码，和自动翻墙无关``
 
-|
 不使用本項目方法:[另附]_
+修改历史:[1]_
 	
 ***********************************************
 ishadow的目前网址为:http://abc.ishadow.online/
 ***********************************************
-
 ``注：访问不到时，可能是ishadow网址变更了``
 
 
 注意
-====
+~~~~
 *	仅提供windows方法
 *	本程序需要电脑配置python3.0以上的版本并且需要用到requests模块
-python下载地址:https://www.python.org/downloads/windows/
+*	python下载地址:https://www.python.org/downloads/windows/
+*	下载 requests模块的方法:在cmd中输入
+	``pip install requests``	 
 
-下载requests模块的方法:在cmd中输入
-	``pip install requests``	
-*	本次对自启动进行了修改，利用计划任务实现shadowsocks永不掉线的方法,即令其在0,6,12,18,24点重新启动程序来重新获取密码  
-    
-|
 
 使用方法:
-=========
+~~~~~~~~~
   
-|  
 1.	**先下载shadowsocks客户端，**
   	链接：http://pan.baidu.com/s/1nvPVhgt 密码：drxv
 2.	**Download本项目，使用时，先将net.py代码中的目录位置更改到你存放shadowsocks的目录（见代码注释）**   
@@ -42,8 +37,5 @@ O(∩_∩)O妈妈再也不怕我掉线了    (路径问题见代码)
 :::::::::::::::::::::::::::::::::::::::::::::::
 
 
-.. [另附] 
-不使用该项目的方法:
--------------
-*	直接download百度云内的shadowsocks
-*	然后打开ishadow的网址，找到密码和服务器，更改到shadowsocks中，并启用服务代理
+.. [另附] 不使用该项目的方法: 直接download百度云内的shadowsocks，然后打开ishadow的网址，找到密码和服务器，更改到shadowsocks中，并启用服务代理即可
+
