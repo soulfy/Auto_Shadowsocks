@@ -5,7 +5,7 @@ import re
 import subprocess
 import json
 import requests
-res = requests.get(url='http://abc.ishadow.online/')
+res = requests.get(url='http://xyz.ishadow.online/')
 
 if res.status_code:
 	res.encoding = 'utf-8'
