@@ -1,4 +1,6 @@
 # 适用于 windows
+# 当程序不能用时，请访问:https://github.com/VonSdite/Auto_ishadow
+# 如不能解决，联系本人， 122691411@qq.com
 import urllib.request
 import urllib.parse
 import re
