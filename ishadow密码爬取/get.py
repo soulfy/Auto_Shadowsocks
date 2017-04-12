@@ -4,7 +4,7 @@ import tkinter as tk
 import re
 
 #get请求
-response = requests.get(url='http://free.ishadow.online/')
+response = requests.get(url='http://ishadowsocks.info')
 
 #判断返回状态
 if response.status_code:

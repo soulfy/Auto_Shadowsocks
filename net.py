@@ -8,11 +8,12 @@ import subprocess
 import json
 import requests
 
+url='http://ishadowsocks.info'
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
 }
-res = requests.get(url='http://free.ishadow.online/', headers=headers)
+res = requests.get(url=url, headers=headers)
 
 if res.status_code:
     res.encoding = 'utf-8'
