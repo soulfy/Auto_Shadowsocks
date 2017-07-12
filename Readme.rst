@@ -1,26 +1,22 @@
-	
-***********************************************
-ishadow的目前网址为:http://ishadowsocks.info
-***********************************************
-
-*注：* 访问不到时，可能是ishadow网址变更了
-
-
 
 注意
 ~~~~
 *	仅提供windows方法
-*	本程序需要电脑配置python3.0以上的版本并且需要用到requests模块
+*	本程序需要电脑配置python3.0以上的版本并且需要用到requests, webbrowser模块
 *	python下载地址:https://www.python.org/downloads/windows/
-*	下载 requests模块的方法:在cmd中输入
-	``pip install requests``	 
+*	下载 requests, webbrowser模块的方法:在cmd中输入
+
+    ``pip install requests``
+
+    ``pip install webbrowser``
+
 
 
 使用方法:
 ~~~~~~~~~
   
 1.	**先下载shadowsocks客户端，**
-  	链接：http://pan.baidu.com/s/1nvPVhgt 密码：drxv
+  	链接：http://pan.baidu.com/s/1eRUIrT4 密码：rx0a
 2.	**Download本项目，使用时，先将net.py代码中的目录位置更改到你存放shadowsocks的目录（见代码注释）**   
 3.	**本次提供了两种使用net.py的方式:**
     
