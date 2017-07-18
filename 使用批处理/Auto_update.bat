@@ -18,13 +18,15 @@ rem 直接运行程序
 rem ------------------
 rem 注意路径!!!<(－︿－)>
 rem ------------------
-E:\1Code\Repositories\Auto_ishadow\shadowsocks.py
+cd ..
+shadowsocks.py
 
 goto Quit
 
 :Second
 rem 从0点开始，每六小时打开一次qq这个程序,并直接运行一次计划任务
-schtasks /create /sc hourly /mo 6 /tn "Auto" /tr E:\1Code\Repositories\Auto_ishadow\shadowsocks.py /st 00:00:02 /f
+cd ..
+schtasks /create /sc hourly /mo 6 /tn "Auto" /tr shadowsocks.py /st 00:00:02 /f
 
 rem ------------------
 rem 注意路径!!!<(－︿－)>

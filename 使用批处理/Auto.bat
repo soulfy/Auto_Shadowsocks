@@ -6,4 +6,5 @@ rem e:
 rem cd Python_learning\Programs\Auto_ishadowsocks
 rem ---------------------------
 
-E:\1Code\Repositories\Auto_ishadow\shadowsocks.py
+cd ..
+shadowsocks.py
