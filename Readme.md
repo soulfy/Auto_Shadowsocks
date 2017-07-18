@@ -1,8 +1,8 @@
-#实现原因:
+# 实现原因:
 **因为[http://ss.ishadowx.com/](http://ss.ishadowx.com/)上的密码每6小时会更换(0点, 6点, 12点, 18点)并重启服务器,导致每次都要重新打开网页去找密码,所以做了以下程序,每次只需启动程序就会重新获取密码,并打开shadowsocks,方便了使用**
 
     
-#使用及注意:
+# 使用及注意:
 
  - 仅适用windows环境
  - 代码适用需要配置python3.0以上的版本, [python下载地址](https://www.python.org/downloads/windows/)
@@ -17,7 +17,7 @@
  - **使用时, 记得设置好代码的ssPath, ssConfigPath的路径(见shadowsocks.py)**
 
 
-#实现代码:
+# 实现代码:
 
  - 代码分两部分: 
      - 第一部分api_shadowsocks.py为设计的api接口类
@@ -40,7 +40,7 @@
 
 ![启动系统代理](1.png)
 
-#使用批处理:
+# 使用批处理:
 
 **本次提供了两种使用shadowsocks.py的方式:**
 
@@ -55,7 +55,7 @@ O(∩_∩)O妈妈再也不怕我掉线了    (路径问题见代码)
 
 
 
-#不使用该项目的科学上网方法:
+# 不使用该项目的科学上网方法:
 *   直接download项目中的shadowsocks
 *   然后打开ishadow的网址: [http://ss.ishadowx.com/](http://ss.ishadowx.com/)
 *   找到密码和服务器，更改到shadowsocks中，并启用服务代理即可
