@@ -1,4 +1,4 @@
 .idea/*
 __pycache__/api_shadowsocks.cpython-36.pyc
 Shadowsocks/*
-Shadowsocks/ss_win_temp/*
+Shadowsocks/ss_win_temp/shadowsocks.log
