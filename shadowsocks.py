@@ -8,7 +8,7 @@ ssConfigPath = "Shadowsocks\gui-config.json" # 当前是相对路径
 
 if __name__ == '__main__':
     shadowsocks = ShadowSocks(ssPath=ssPath, ssConfigPath=ssConfigPath)
-    shadowsocks.setShadowSocks(pattern=JapanB_pattern)
+    shadowsocks.setShadowSocks(pattern=JapanA_pattern)
 
     # setShadowSocks可选服务器
     # 
