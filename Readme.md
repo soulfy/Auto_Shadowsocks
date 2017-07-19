@@ -1,5 +1,7 @@
 # 实现原因:
-**因为[http://ss.ishadowx.com/](http://ss.ishadowx.com/)上的密码每6小时会更换(0点, 6点, 12点, 18点)并重启服务器,导致每次都要重新打开网页去找密码,所以做了以下程序,每次只需启动程序就会重新获取密码,并打开shadowsocks,方便了使用**
+**因为[http://ss.ishadowx.com/](http://ss.ishadowx.com/)上的密码每6小时会更换(0点, 6点, 12点, 18点)并重启服务器,导致每次都要重新打开网页去找密码,所以做了以下程序,每次只需启动程序就会重新获取密码,并会自动打开shadowsocks,方便了使用**  
+
+**从而实现需要科学上网时, 运行该项目代码即可科学上网**   
 
     
 # 使用及注意:
@@ -32,11 +34,11 @@
      
      - 函数printItem(self, pattern), 显示爬取的服务器,密码,端口,加密方式
          
- - 实现思想
-     - 爬取页面上的密码,服务器,端口,加密方式
-         - 将爬取的信息设置到shadowsocks可执行程序的配置文件gui-config.json中
-     - 判断shadowsocks.exe进程是否存在(因为一个目录下的shadowsocks.exe只能打开一个), 若存在, 则关闭.
-     - 打开可执行程序shadowsocks.exe即可(记得启动系统代理)
+# 实现思想(api_shadowsocks.py)
+ - 爬取页面上的密码,服务器,端口,加密方式
+ - 将爬取的信息设置到shadowsocks可执行程序的配置文件gui-config.json中
+ - 判断shadowsocks.exe进程是否存在(因为一个目录下的shadowsocks.exe只能打开一个), 若存在, 则关闭.
+ - 打开可执行程序shadowsocks.exe即可(记得启动系统代理)
 
 ![启动系统代理](1.png)
 
