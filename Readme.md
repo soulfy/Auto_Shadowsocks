@@ -16,6 +16,8 @@
         
 
  - **需要下载shadowsocks客户端, github中给出, download项目即可获得**
+    - 或者到**[https://github.com/shadowsocks/shadowsocks-windows/releases](https://github.com/shadowsocks/shadowsocks-windows/releases)获取**  
+    
  - **使用时, 记得设置好代码的ssPath, ssConfigPath的路径(见shadowsocks.py)**
 
 
