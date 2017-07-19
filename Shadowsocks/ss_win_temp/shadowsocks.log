@@ -1,0 +1,27 @@
+[2017-07-19 09:44:29] Shadowsocks started
+[2017-07-19 09:45:38] System.Exception: 端口已被占用
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+[2017-07-19 09:46:01] Shadowsocks started
+[2017-07-19 09:46:24] Shadowsocks started
+[2017-07-19 09:46:26] Shadowsocks started
+[2017-07-19 09:46:32] a.jpip.pro:443 timed out
+[2017-07-19 09:46:36] a.jpip.pro:443 timed out
+[2017-07-19 09:46:37] a.jpip.pro:443 timed out
+[2017-07-19 09:46:37] a.jpip.pro:443 timed out
+[2017-07-19 09:46:37] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-07-19 09:46:38] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2017-07-19 09:46:41] Shadowsocks started
