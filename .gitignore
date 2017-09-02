@@ -1,5 +1,5 @@
 .idea/*
 __pycache__/api_shadowsocks.cpython-36.pyc
-Shadowsocks/gui-config.json
 Shadowsocks/ss_win_temp/*
+Shadowsocks/gui-config.json
 Shadowsocks/user-wininet.json
