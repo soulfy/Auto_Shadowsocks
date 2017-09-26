@@ -55,3 +55,4 @@ USA_A_shadowsocks.py
 goto end
 
 :end
+pause
