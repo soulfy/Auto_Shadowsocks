@@ -15,6 +15,8 @@
     
     双击Main/Auto.bat即可使用
 
+![bat截图](pic2_README.png)
+
 **为了便捷使用，可将创建该批处理快捷方式到桌面**
    
    
@@ -22,7 +24,7 @@
 **注：**
 记得shadowsocks.exe要启动系统代理
 
-![启动系统代理](1.png)
+![启动系统代理](pic1_README.png)
 
 ---
 
@@ -89,7 +91,7 @@
  - 判断shadowsocks.exe进程是否存在(因为一个目录下的shadowsocks.exe只能打开一个), 若存在, 则关闭.
  - 打开可执行程序shadowsocks.exe即可(记得启动系统代理)
 
-![启动系统代理](1.png)
+![启动系统代理](pic1_README.png)
 
 
 
