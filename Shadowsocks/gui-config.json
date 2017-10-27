@@ -1,10 +1,10 @@
 {
     "configs": [
         {
-            "server": "b.jpip.pro",
-            "server_port": "8388",
-            "password": "</span>  <span class=\"copybtn\" data-clipboard-target=\"#pwjpb\"><i class=\"fa fa-copy\"></i>",
-            "method": "rc4-md5",
+            "server": "a.isxa.bid",
+            "server_port": "443",
+            "password": "07891215",
+            "method": "aes-256-cfb",
             "remarks": "",
             "timeout": 5
         }
