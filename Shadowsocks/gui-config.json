@@ -7,18 +7,10 @@
             "method": "aes-256-cfb",
             "remarks": "",
             "timeout": 5
-        },
-        {
-            "server": "a.isxb.bid",
-            "server_port": 17881,
-            "password": "46545073",
-            "method": "aes-256-cfb",
-            "remarks": "",
-            "timeout": 5
         }
     ],
     "strategy": null,
-    "index": 1,
+    "index": 0,
     "global": false,
     "enabled": true,
     "shareOverLan": false,
