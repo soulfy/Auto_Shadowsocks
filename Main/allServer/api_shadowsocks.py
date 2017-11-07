@@ -148,27 +148,27 @@ headers = {
 
 # 匹配日本服务器的模式
 JapanA_pattern = re.compile(
-    r'<span id="ipjpa">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwjpa">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?jpa">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwjpa">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 JapanB_pattern = re.compile(
-    r'<span id="ipjpb">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwjpb">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?jpb">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwjpb">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 JapanC_pattern = re.compile(
-    r'<span id="ipjpc">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwjpc">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?jpc">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwjpc">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 
 # 匹配新加坡服务器的模式
 SingaporeA_pattern = re.compile(
-    r'<span id="ipsga">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwsga">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?sga">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwsga">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 SingaporeB_pattern = re.compile(
-    r'<span id="ipsgb">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwsgb">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?sgb">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwsgb">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 SingaporeC_pattern = re.compile(
-    r'<span id="ipsgc">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwsgc">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?sgc">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwsgc">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 
 # 匹配美国服务器的模式
 UsaA_pattern = re.compile(
-    r'<span id="ipusa">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwusa">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?usa">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwusa">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 UsaB_pattern = re.compile(
-    r'<span id="ipusb">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwusb">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?usb">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwusb">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 UsaC_pattern = re.compile(
-    r'<span id="ipusc">(.+?)</span>.+<h4>Port.(.+?)</h4>.+<span id="pwusc">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
+    r'<span id=".*?usc">(.+?)</span>.+<span id="port.*?">(.+?)</span>.+<span id="pwusc">(.+?)</span>.+<h4>Method.(.+?)</h4>', re.S)
 
 if __name__ == '__main__':
     # 更改为你的ss程序路径

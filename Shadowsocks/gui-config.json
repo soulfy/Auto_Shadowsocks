@@ -1,16 +1,24 @@
 {
     "configs": [
         {
-            "server": "c.isxc.bid",
-            "server_port": "443",
-            "password": "80640663",
+            "server": "a.isxa.bid",
+            "server_port": "11687\n",
+            "password": "12603787\n",
+            "method": "aes-256-cfb",
+            "remarks": "",
+            "timeout": 5
+        },
+        {
+            "server": "a.isxb.bid",
+            "server_port": 17881,
+            "password": "46545073",
             "method": "aes-256-cfb",
             "remarks": "",
             "timeout": 5
         }
     ],
     "strategy": null,
-    "index": 0,
+    "index": 1,
     "global": false,
     "enabled": true,
     "shareOverLan": false,
