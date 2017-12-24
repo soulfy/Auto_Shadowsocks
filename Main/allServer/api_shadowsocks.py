@@ -82,8 +82,8 @@ class ShadowSocks(object):
             None, 无返回
             打印出服务器,加密方式,密码,端口
         '''
-        with open("Html.txt", "w") as f:
-            f.write(self.content)
+        # with open("Html.txt", "w") as f:
+        #     f.write(self.content)
         item = re.findall(pattern, self.content)[0]
         print('服务器  :', item[0])
         print('端口    :', item[1])
@@ -116,10 +116,10 @@ class ShadowSocks(object):
         '''
 
         item = re.findall(pattern, self.content)[0]
-        server = item[0]
-        server_port = item[1]
-        password = item[2]
-        method = item[3]
+        server = item[0].replace('\n', '')
+        server_port = item[1].replace('\n', '')
+        password = item[2].replace('\n', '')
+        method = item[3].replace('\n', '')
 
         data = None
         with open(self.ssConfigPath, "r+") as f:
