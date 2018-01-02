@@ -1,6 +1,7 @@
 @echo off
 :cd /d %~dp0\allServer
 set base=%~dp0\allServer
+echo %base%
 
 rem 选择选项
 echo ----------------------1. Japan的A服务器----------------------
@@ -22,4 +23,4 @@ CHOICE /C 1234567 /M Please--Input--the--Server--Num
 python %base%\api_shadowsocks.py %errorlevel%
 
 :end
-pause
+

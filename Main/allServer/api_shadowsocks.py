@@ -28,11 +28,6 @@ class ShadowSocks(object):
     def __init__(self):
         '''
         文档注释
-        
-        Args: 
-            ssPath: 代表可执行程序shadowsocks.exe的路径
-            ssConfigPath: 代表gui-config.json的路径
-      
         '''
         super(ShadowSocks, self).__init__()
         self.getHtml()

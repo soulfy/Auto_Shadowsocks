@@ -12,42 +12,33 @@
     }, 
     "shareOverLan": false, 
     "checkPreRelease": false, 
+    "pacUrl": null, 
     "global": false, 
     "enabled": true, 
     "strategy": null, 
     "useOnlinePac": false, 
-    "isVerboseLogging": false, 
-    "availabilityStatistics": false, 
+    "isDefault": false, 
     "autoCheckUpdate": true, 
     "hotkey": {
         "ServerMoveDown": "", 
         "ShowLogs": "", 
         "SwitchAllowLan": "", 
-        "ServerMoveUp": "", 
+        "SwitchSystemProxyMode": "", 
         "SwitchSystemProxy": "", 
-        "SwitchSystemProxyMode": ""
+        "ServerMoveUp": ""
     }, 
     "configs": [
         {
-<<<<<<< HEAD
-            "server": "a.isxa.bid",
-            "server_port": "11687\n",
-            "password": "12603787\n",
-            "method": "aes-256-cfb",
-            "remarks": "",
-            "timeout": 5
-=======
             "server_port": "11198", 
             "server": "a.isxb.bid", 
             "timeout": 10, 
             "remarks": "", 
             "password": "06129233", 
             "method": "aes-256-cfb"
->>>>>>> 简化;
         }
     ], 
-    "pacUrl": null, 
-    "isDefault": false, 
+    "isVerboseLogging": false, 
+    "availabilityStatistics": false, 
     "proxy": {
         "proxyPort": 0, 
         "proxyType": 0, 
