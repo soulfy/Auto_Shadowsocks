@@ -1,49 +1,58 @@
 {
+    "index": 0, 
+    "secureLocalPac": true, 
+    "localPort": 1080, 
+    "logViewer": {
+        "Font": "Consolas, 8pt", 
+        "toolbarShown": false, 
+        "topMost": false, 
+        "BackgroundColor": "Black", 
+        "wrapText": false, 
+        "TextColor": "White"
+    }, 
+    "shareOverLan": false, 
+    "checkPreRelease": false, 
+    "global": false, 
+    "enabled": true, 
+    "strategy": null, 
+    "useOnlinePac": false, 
+    "isVerboseLogging": false, 
+    "availabilityStatistics": false, 
+    "autoCheckUpdate": true, 
+    "hotkey": {
+        "ServerMoveDown": "", 
+        "ShowLogs": "", 
+        "SwitchAllowLan": "", 
+        "ServerMoveUp": "", 
+        "SwitchSystemProxy": "", 
+        "SwitchSystemProxyMode": ""
+    }, 
     "configs": [
         {
+<<<<<<< HEAD
             "server": "a.isxa.bid",
             "server_port": "11687\n",
             "password": "12603787\n",
             "method": "aes-256-cfb",
             "remarks": "",
             "timeout": 5
+=======
+            "server_port": "11198", 
+            "server": "a.isxb.bid", 
+            "timeout": 10, 
+            "remarks": "", 
+            "password": "06129233", 
+            "method": "aes-256-cfb"
+>>>>>>> 简化;
         }
-    ],
-    "strategy": null,
-    "index": 0,
-    "global": false,
-    "enabled": true,
-    "shareOverLan": false,
-    "isDefault": false,
-    "localPort": 1080,
-    "pacUrl": null,
-    "useOnlinePac": false,
-    "secureLocalPac": true,
-    "availabilityStatistics": false,
-    "autoCheckUpdate": true,
-    "checkPreRelease": false,
-    "isVerboseLogging": false,
-    "logViewer": {
-        "topMost": false,
-        "wrapText": false,
-        "toolbarShown": false,
-        "Font": "Consolas, 8pt",
-        "BackgroundColor": "Black",
-        "TextColor": "White"
-    },
+    ], 
+    "pacUrl": null, 
+    "isDefault": false, 
     "proxy": {
-        "useProxy": false,
-        "proxyType": 0,
-        "proxyServer": "",
-        "proxyPort": 0,
-        "proxyTimeout": 3
-    },
-    "hotkey": {
-        "SwitchSystemProxy": "",
-        "SwitchSystemProxyMode": "",
-        "SwitchAllowLan": "",
-        "ShowLogs": "",
-        "ServerMoveUp": "",
-        "ServerMoveDown": ""
+        "proxyPort": 0, 
+        "proxyType": 0, 
+        "proxyServer": "", 
+        "proxyTimeout": 3, 
+        "useProxy": false
     }
 }

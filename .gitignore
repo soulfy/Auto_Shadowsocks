@@ -1,4 +1,11 @@
-.idea/*
+Main/allServer/.idea/*
 __pycache__/api_shadowsocks.cpython-36.pyc
 Shadowsocks/ss_win_temp/*
+<<<<<<< HEAD
 *.pyc
+=======
+Shadowsocks/gui-config.json
+Shadowsocks/user-wininet.json
+*.pyc
+Shadowsocks/pac.txt
+>>>>>>> 简化;

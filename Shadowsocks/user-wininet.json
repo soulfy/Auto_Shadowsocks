@@ -1,7 +1,13 @@
 {
   "UserSettingsRecorded": false,
   "Flags": "1",
+<<<<<<< HEAD
   "ProxyServer": "127.0.0.1:50093",
   "BypassList": "<local>",
   "PacUrl": "http://127.0.0.1:1080/pac?t=20170719095534344&secret=9/yvbLfp0AIGU1lcUITdhSUKWqoS94twd6oPsrLgvtc="
+=======
+  "ProxyServer": null,
+  "BypassList": "<local>",
+  "PacUrl": "http://127.0.0.1:1080/pac?t=20171114164448798&secret=EKWEDkPfyP3XrA71eSGpmH8Jnz3Af7COPLXDxKfqDoQ="
+>>>>>>> 简化;
 }
